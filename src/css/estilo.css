@@ -1,0 +1,169 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(../Images/bg-repeat.jpg);
+    background-size: 7vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin: 90px 0px;
+    width: 500px;
+    margin-right: 20vh;
+
+}
+
+.informacoes h1 {
+    font-weight: 900;
+
+
+}
+
+.informacoes .descricao {
+    width: 400px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.campo-de-preenchimento {
+    background-color: #FFFFFF;
+    height: 600px;
+    width: 540px;
+    margin: 35px 0px;
+    border: 1px solid black;
+}
+
+.campo-de-preenchimento .items {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.campo-de-preenchimento .items .item {
+    padding: 25px;
+}
+
+.nome {
+    width: 298px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 450px;
+    margin: 0px 10px;
+}
+
+.nome::placeholder {
+    padding: 10px;
+    color: #A8A8A8;
+}
+
+
+.email {
+    width: 298px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 450px;
+    margin: 0px 10px;
+
+}
+
+.email::placeholder {
+    padding: 10px;
+    color: #A8A8A8;
+}
+
+
+.telefone {
+    width: 298px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 450px;
+    margin: 0px 10px;
+}
+
+.telefone::placeholder {
+    padding: 10px;
+    color: #A8A8A8;
+}
+
+.mensagem {
+    width: 298px;
+    height: 130px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 450px;
+    margin: 0px 35px;
+}
+
+.mensagem::placeholder {
+    font-family: "Roboto";
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+    color: #A8A8A8;
+}
+
+.campo-obrigatorio {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.botao {
+    background-color: #3CCC87;
+    width: 400px;
+    height: 50px;
+    margin: 20px 75px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.botao:hover {
+    background-color: #33b878;
+}
+
+
+.obrigatorio{
+    position: relative;
+    bottom: 25px;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #CC0000;
+    display: none;
+}
+
+.baixo{
+    top: 1px;
+}
+
+.ativo {
+    display: block;
+
+}

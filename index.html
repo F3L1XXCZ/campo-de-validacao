@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo de validação</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+
+        <div class="informacoes">
+
+            <h1> FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1> <br>
+
+            <p class="descricao">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+                contato em menos de 24h.</p>
+        </div>
+
+
+        <div class="campo-de-preenchimento">
+
+            <ul class="items">
+                <li class="item requer"> <input class="nome input" type="text" placeholder="Nome completo*" minlength="8"
+                        maxlength="30"></li>
+
+                <span class="obrigatorio ">Campo obragatório *</span>
+
+                <li class="item requer"> <input class="email input" type="text" placeholder="Email *" maxlength="50"
+                        minlength="5">
+                </li>
+
+                <span class="obrigatorio ">Campo obragatório *</span>
+
+                <li class="item requer"> <input class="telefone input" type="text" placeholder="Telefone *" minlength="5"
+                        maxlength="11"></li>
+
+                <span class="obrigatorio ">Campo obragatório *</span>
+
+                <li class="">
+                    <textarea name="mensagem" class="mensagem requer input" cols="30" rows="10" placeholder="Mensagem *"
+                        minlength="10" maxlength="250"></textarea>
+
+                    <span class="obrigatorio baixo ">Campo obragatório *</span>
+                </li>
+
+            </ul>
+
+            <p class="campo-obrigatorio">* Campos Obrigatórios</p> <br>
+
+            <button class="botao">Enviar</button>
+        </div>
+    </main>
+
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
